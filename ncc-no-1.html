@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>第1回 NCC講習会</title>
 <style>
   body {
@@ -69,7 +70,49 @@
     color: #facc15;
     text-decoration: none;
   }
+/* ===== スマホ対応 ===== */
+@media screen and (max-width: 600px) {
 
+  header {
+    padding: 18px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 0 12px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .info {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
+  li {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .sub {
+    margin-left: 12px;
+  }
+
+  .sub2 {
+    margin-left: 24px;
+  }
+}
 </style>
 </head>
 
@@ -160,4 +203,5 @@
 </main>
 
 </body>
+
 </html>
